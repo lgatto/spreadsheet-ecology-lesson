@@ -79,7 +79,7 @@ You will notice that when exporting into a text-based format (such as CSV), Exce
 
 ### Advantages of Alternative Date Formatting
 
-### <a href=day></a> Storing dates as YEAR, MONTH, DAY
+#### Storing dates as YEAR, MONTH, DAY
 
 Storing dates in YEAR, MONTH, DAY format helps remove this ambiguity. Let's look at this issue a bit closer.
 
@@ -94,11 +94,12 @@ Entering dates in one cell is helpful but due to the fact that the spreadsheet p
 
 In dealing with dates in spreadsheets, we recommend separating **date data into separate fields** (day, month, year), which will eliminate any chance of ambiguity. 
 
-### <a href=doy></a> Storing dates as YEAR, DAY-OF-YEAR
+#### Storing dates as YEAR, DAY-OF-YEAR
 
-There is also another option:  
-You can also store dates as year, and day of year (DOY). Why? Because depending on your
-question, this might be what's useful to you, and there is practically no possibility for ambiguity creeping in.
+There is also another option: You can also store dates as year, and
+day of year (DOY). Why? Because depending on your question, this might
+be what's useful to you, and there is practically no possibility for
+ambiguity creeping in.
 
 Statistical models often incorporate year as a factor, to account for year-to-year variation, and DOY can be used to measure the passage of time within a year. 
 

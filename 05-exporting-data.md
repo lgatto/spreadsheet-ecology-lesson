@@ -8,7 +8,7 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, and
 **Ben Marwick**
 
-###Spreadsheet data formats
+### Spreadsheet data formats
 
 Storing the data you're going to work with for your analyses in Excel
 default file format (`*.xls` or `*.xlsx` - depending on the Excel
