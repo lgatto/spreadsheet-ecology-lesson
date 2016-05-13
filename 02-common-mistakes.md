@@ -23,7 +23,7 @@ Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, *
 
 ---
 
-## <a name=tables></a> Multiple tables
+## Multiple tables
 
 A common strategy is creating multiple data tables within
 one spreadsheet. **This confuses the computer, so don't do this!**
@@ -37,7 +37,7 @@ into a usable form. The example below depicts the problem:
 
 
 
-## <a name=tabs></a> Multiple tabs
+## Multiple tabs
 
 But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
 
@@ -53,7 +53,7 @@ Instead you can Freeze the column headers.
 
 [Documentation on how to freeze column headers](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
 
-## <a name=zeros></a> Not filling in zeroes
+## Not filling in zeroes
 
 It might be that when you're measuring something, it's
 usually a zero, say the number of times an elephant
@@ -65,7 +65,7 @@ However, there's a difference between a zero and a blank cell in a spreadsheet. 
 The spreadsheets or statistical programs will likely mis-interpret blank cells that are meant to be zero. This is equivalent to leaving out data. Zero observations are real data! Leaving zero data blank is not good in a written lab notebook, but NEVER okay when you move your data into a digital format.
 
 
-## <a name="null"></a> Using bad null values
+## Using bad null values
 **Example**: using -999 or other numerical values (or zero).
 
 **Solution**: Many statistical programs will not recognize that numeric values of null are indeed null. It will depend on the final application of your data and how you intend to analyse it, but it is essential to use a clearly defined and CONSISTENT null indicator. Blanks (most applications) and NA (for R) are good choices.
@@ -76,7 +76,7 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 
 
 
-## <a name="formatting"></a> Using formatting to convey information 
+## Using formatting to convey information 
 
 **Example**: highlighting cells, rows or columns that should be excluded from an analysis, leaving blank rows to indicate separations in data.
 
@@ -87,26 +87,26 @@ From White et al, 2013, [Nine simple ways to make it easier to (re)use your data
 ![good formatting](fig/good_formatting.png)
 
 
-## <a name="formatting_pretty"></a> Using formatting to make the data sheet look pretty
+## Using formatting to make the data sheet look pretty
 
 **Example**: merging cells.
 
 **Solution**: If you’re not careful, formatting a worksheet to be more aesthetically pleasing can compromise your computer’s ability to see associations in the data. Merged cells are an absolute formatting NO-NO if you want to make your data readable by statistics software. Consider restructuring your data in such a way that you will not need to merge cells to organize your data.
 
 
-## <a name="units"></a> Placing comments or units in cells
+## Placing comments or units in cells
 
 **Example**: Your data was collected, in part, by a summer student you later found out was mis-identifying some of your species, some of the time. You want a way to note these data are suspect.
 
 **Solution**: Most statistical programs can’t see Excel’s comments, and would be confused by comments placed within your data cells. Create another field if you need to add notes to cells. Similarly, don’t include units- ideally, all the measurements you place in one column should be in the same unit, but if for some reason they aren’t, create another field and specify the units the cell is in.
 
-## <a name="info"></a> More than one piece of information in a cell
+## More than one piece of information in a cell
 
 **Example**: You find one male, and one female of the same species. You enter this as 1M, 1F.
 
 **Solution**: Never include more than one piece of information in a cell. If you need both these measurements, design your data sheet to include this information.
 
-## <a name="field_name"></a> Field name problems
+## Field name problems
 Choose descriptive field names, but be careful not to include: spaces, numbers, or special characters of any kind. Spaces can be misinterpreted by parsers that use whitespace as delimiters and some programs don’t like field names that are text strings that start with numbers.
 Underscores (`_`) are a good alternative to spaces and consider writing names in camel-case to improve readability. Remember that abbreviations that make sense at the moment may not be so obvious in 6 months but don't overdo it with names that are eccessivly long.
 
@@ -122,7 +122,7 @@ weight | weight | w.
 cell_type | CellType | Cell type
 first_observation | Observation_01 | 1st Obs.
 
-## <a name="special"></a> Special characters in data
+## Special characters in data
 
 **Example**: You treat Excel as a word processor when writing notes, even copying data directly from Word or other applications.
 
