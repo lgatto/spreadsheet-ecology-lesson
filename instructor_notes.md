@@ -60,11 +60,12 @@ The narrative of this lesson is to
   how to change the date in to three columns using Excel's built in
   MONTH, DAY, YEAR functions. Have them run through that exercise.
 
-**Don't go through 02-common-mistakes.md except to refer to as responses to the Exercise in
-01-format-data.md**
+* **Don't go through 02-common-mistakes.md except to refer to as
+  responses to the Exercise in 01-format-data.md**
 
-**Do the exercise and make the point about dates either in reponse to a learner bringing
-up date as an issue during the responses, or at the end of the response time.**
+* **Do the exercise and make the point about dates either in reponse
+  to a learner bringing up date as an issue during the responses, or
+  at the end of the response time.**
 
 #### In 04-quality-control
 
