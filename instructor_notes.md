@@ -1,9 +1,3 @@
----
-layout: lesson
-title: Instructor notes
-root: .
----
-
 ## Instructor notes
 
 ### Lesson purpose
