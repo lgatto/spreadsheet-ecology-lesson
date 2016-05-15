@@ -96,7 +96,7 @@ look at all of one species or look at different weight distributions by sex,
 it would be hard to set up the data to do this. If instead we put sex and species 
 in different columns, you can see that it would be much easier. 
 
-###Columns for variables and rows for observations
+### Columns for variables and rows for observations
 
 The rule of thumb, when setting up a datasheet, is **columns =
 variables**, **rows = observations**, **cells = data** (values).
