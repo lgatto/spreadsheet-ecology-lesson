@@ -113,6 +113,7 @@ Why would I need to reshape my data? Different analyses require data to be in di
 
 <!-- [Use species list example] -->
 
-Note: these operations can be done in most statistical or programming packages (i.e. using `reshape2`, `plyr` in R)
+Note: these operations can be done in most statistical or programming
+packages (i.e. using `dplyr` in R).
 
 Previous:[Dates as data.](03-dates-as-data.html) Next: [Exporting data from spreadsheets.](05-exporting-data.html)
