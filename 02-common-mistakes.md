@@ -42,14 +42,29 @@ into a usable form. The example below depicts the problem:
 But what about worksheet tabs? That seems like an easy way to organize data, right? Well, yes and no. When you create extra tabs, you fail to allow the computer to see connections in the data that are there (you have to introduce spreadsheet application-specific functions or scripting to ensure this connection). Say, for instance, you make a separate tab for each day you take a measurement.
 
 This is bad practice for two reasons:
-**1)** you are more likely to accidentally add inconsistencies to your data if each time you take a measurement, you start recording data in a new tab, and
-**2)** even if you manage to prevent all inconsistencies from creeping in, you will add an extra step for yourself before you analyze the data because you will have to combine these data into a single datatable. You will have to explicitly tell the computer how to combine tabs - and if the tabs are inconsistently formatted, you might even have to do it by hand!
 
-The next time you’re entering data, and you go to create another tab or table, I want you to ask yourself “Self, could I avoid adding this tab by adding another column to my original spreadsheet?”
+1. you are more likely to accidentally add **inconsistencies** to your
+   data if each time you take a measurement, you start recording data
+   in a new tab, and
 
-Your data sheet might get very long over the course of experiment. This makes it harder to enter data if you can’t see your headers at the top of the spreadsheet. But do NOT repeat headers. These can easily get mixed into the data, leading to problems down the road.
+2. even if you manage to prevent all inconsistencies from creeping in,
+   you will add an extra step for yourself before you analyze the data
+   because you will have to **combine these data into a single data
+   table**. You will have to explicitly tell the computer how to
+   combine tabs - and if the tabs are inconsistently formatted, you
+   might even have to do it by hand!
 
-Instead you can Freeze the column headers.
+The next time you’re entering data, and you go to create another tab
+or table, I want you to ask yourself “Self, could I avoid adding this
+tab by **adding another column** to my original spreadsheet?”
+
+Your data sheet might get very long over the course of
+experiment. This makes it harder to enter data if you can’t see your
+headers at the top of the spreadsheet. But do NOT repeat
+headers. These can easily get mixed into the data, leading to problems
+down the road.
+
+Instead you can **freeze** the column headers.
 
 [Documentation on how to freeze column headers](https://support.office.com/en-ca/article/Freeze-column-headings-for-easy-scrolling-57ccce0c-cf85-4725-9579-c5d13106ca6a)
 
