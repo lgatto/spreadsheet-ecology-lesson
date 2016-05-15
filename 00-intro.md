@@ -8,11 +8,12 @@ Authors:**Christie Bahlai**, **Aleksandra Pawlik**<br>
 Contributors: **Jennifer Bryan**, **Alexander Duryee**, **Jeffrey Hollister**, **Daisie Huang**, **Owen Jones**, **Clare Sloggett**, **Harriet Dashnow** and
 **Ben Marwick**
 
-Good **data organization** is the foundation of your research
-project. Most **researchers** have data or do data entry in
-spreadsheets. Spreadsheet programs are very **useful graphical
-interfaces** for designing data tables and handling very basic data
-quality control functions.
+* Good **data organization** is the **foundation of your research**
+  project.
+* Most researchers have data or do **data entry in spreadsheets**.
+* Spreadsheet programs are very **useful graphical interfaces** for
+  designing data tables and handling very basic data quality control
+  functions.
 
 ---
 
@@ -114,7 +115,7 @@ do this sort of operation within your document editing software.
 The latter two applications, **generating statistics and figures**, should 
 be used with caution: because of the graphical, drag and drop nature of 
 spreadsheet programs, it can be very difficult, if not impossible, to 
-replicate your steps (much less retrace anyone else's), particularly if your 
+**replicate** your steps (much less retrace anyone else's), particularly if your 
 stats or figures require you to do more complex calculations. Furthermore, 
 in doing calculations in a spreadsheet, it’s easy to accidentally apply a 
 slightly different formula to multiple adjacent cells. When using a 
@@ -134,7 +135,7 @@ preliminary summary statistics.
 In this lesson, we will assume that you are most likely using Excel as
 your primary spreadsheet program - there are others (gnumeric, Calc
 from OpenOffice), and their functionality is similar, but Excel seems
-to be the program most used by biologists and ecologists.
+to be the program most used by biologists.
 
 In this lesson, we're going to talk about:
 
